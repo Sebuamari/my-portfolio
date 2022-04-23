@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Merienda&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href='https://css.gg/facebook.css' rel='stylesheet'>
+  <link href='https://css.gg/mail.css' rel='stylesheet'>
+  <link href='https://css.gg/phone.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/fc44c3e5f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <ul class="nav-list">
+      <li><a class="nav-lnk" href="#welcome-section">About</a></li>
+      <li><a class="nav-lnk" href="#projects">Projects</a></li>
+      <li><a class="nav-lnk" href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="welcome-section">
+    <h1>Welcome!</h1>
+    <p>I'm Mariam Sebua, a beginner Front-End developer</p>
+    <p>How can I help you?</p>
+  </section>
+  <section id="projects">
+    <h2 class="projects-heading">Here you can see some of my projects</h2>
+    <div class="project-tile">
+      <a href="https://codepen.io/sebuamari/pen/VwyRVQm"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://github.com/Sebuamari/portfolio-photos/blob/main/Screenshot%202022-04-22%20134515.png?raw=true" alt="project-photo">
+        <p class="project-title">25 + 5 Clock</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/WNdLNEB"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://github.com/Sebuamari/portfolio-photos/blob/main/Screenshot%202022-04-14%20155302.png?raw=true" alt="project-photo">
+        <p class="project-title">Javascript Calculator</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/vYprajN"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://raw.githubusercontent.com/Sebuamari/portfolio-photos/dbde8b46889824e8fb13566c403786b804fe0899/Screenshot%202022-04-14%20155302.png" alt="project-photo">
+        <p class="project-title">Drum Machine</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/wvPXpRe"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://raw.githubusercontent.com/Sebuamari/portfolio-photos/08df6f5a1eeeea19c440f2814f5152ac3115ff34/Screenshot%202022-04-10%20230618.png" alt="project-photo">
+        <p class="project-title">Markdown Previewer</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/JjOpMXd"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://github.com/Sebuamari/portfolio-photos/blob/main/Screenshot%202022-02-21%20191934.png?raw=true" alt="project-photo">
+        <p class="project-title">Random Quote Machine</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/GRMdpLY"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://github.com/Sebuamari/portfolio-photos/blob/main/Screenshot%202022-01-10%20212731.png?raw=true" alt="project-photo">
+        <p class="project-title">Tribute Page</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/yLzqydV"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://github.com/Sebuamari/portfolio-photos/blob/main/Screenshot%202022-01-10%20212817.png?raw=true" alt="project-photo">
+        <p class="project-title">Product Landing Page</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/oNGyOxe"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://github.com/Sebuamari/portfolio-photos/blob/main/Screenshot%202022-01-10%20212756.png?raw=true" alt="project-photo">
+        <p class="project-title">Survey Form</p>
+      </a>
+      <a href="https://codepen.io/sebuamari/pen/KKXxoGe"
+         target="_blank"
+         class="project-link">
+        <img 
+          class="project-image"
+          src="https://github.com/Sebuamari/portfolio-photos/blob/main/Screenshot%202022-01-10%20212847.png?raw=true" alt="project-photo">
+        <p class="project-title">Technical Documentation Page</p>
+      </a>
+    </div>
+  </section>
+  <section id="Contact">
+    <div class="outro-text">
+    <h2>What about making something cool together?</h2>
+    <p>Please feel free to contact me</p>
+    </div>
+    <div class="contact-links">
+      <a
+      href="facebook.com/supertrampalexmc"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="gg-facebook"></i> Facebook</a
+    >
+      <a
+      href="www.linkedin.com/in/sebuamariam"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fa-brands fa-linkedin"></i> Linkedin</a
+    >
+    <a
+      href="https://github.com/Sebuamari"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fa fa-github"></i> GitHub</a
+    >
+    <a href="mailto:sebuamari@gmail.com" class="btn contact-details"
+      ><i class="gg-mail"></i> Send a mail</a
+    >
+    <a href="tel:+995599176788" class="btn contact-details"
+      ><i class="gg-phone"></i> Call me</a
+    >
+  </div>
+    <footer>
+      
+    </footer>
+  </section>
+</body>
+</html>
