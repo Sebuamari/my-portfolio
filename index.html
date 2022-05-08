@@ -21,11 +21,13 @@
   </nav>
   <section id="welcome-section">
     <h1>Welcome!</h1>
-    <p>I'm Mariam Sebua, a beginner Front-End developer</p>
+    <p>I'm Mariam Sebua, a beginner Front-End developer, currently deep into React.js</p>
     <p>How can I help you?</p>
   </section>
   <section id="projects">
-    <h2 class="projects-heading">Here you can see some of my projects</h2>
+    <h2 class="projects-heading">Check out my projects so far</h2>
+    <div class="grid">
+    <i class="fa-solid fa-angle-left left fa-6x" onclick="moveleft();"></i>
     <div class="project-tile">
       <a href="https://codepen.io/sebuamari/pen/VwyRVQm"
          target="_blank"
@@ -100,10 +102,14 @@
         <p class="project-title">Technical Documentation Page</p>
       </a>
     </div>
+    <i class="fa-solid fa-angle-right right fa-6x" onclick="moveright();"></i>
+    </div>
   </section>
   <section id="Contact">
     <div class="outro-text">
     <h2>What about making something cool together?</h2>
+    <p>Available remote or on-site in Tbilisi, Georgia</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190556.88137858704!2d44.55177941477165!3d41.73235825756504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e0!3m2!1ska!2sge!4v1651951009870!5m2!1ska!2sge" width="500" height="250" style="border:3 solid black;border-radius: 30px; margin-top: 20px; margin-bottom: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <p>Please feel free to contact me</p>
     </div>
     <div class="contact-links">
@@ -126,15 +132,42 @@
       ><i class="fa fa-github"></i> GitHub</a
     >
     <a href="mailto:sebuamari@gmail.com" class="btn contact-details"
-      ><i class="gg-mail"></i> Send a mail</a
+      ><i class="fa-solid fa-envelope"></i> Send a mail</a
     >
     <a href="tel:+995599176788" class="btn contact-details"
-      ><i class="gg-phone"></i> Call me</a
+      ><i class="fa-solid fa-mobile-screen"></i> Call me</a
     >
   </div>
     <footer>
       
     </footer>
   </section>
+  <script>
+    const sliderLeft=document.querySelector('.left');
+    const sliderRight=document.querySelector('.right');
+    const project=document.querySelector('.project-tile');
+    let countClick=0;
+
+    const moveleft = (e) => {
+        event.preventDefault;
+        if(countClick>0){
+          countClick--;
+        }
+        project.scrollLeft=-(200*countClick);
+        console.log(countClick);
+
+    };
+
+    const moveright = (e) => {
+        event.preventDefault;
+        if(countClick===12) {
+          countClick=0;
+        } else {
+          countClick++;
+        }
+        project.scrollLeft=200*countClick;
+        console.log(countClick);
+    };
+  </script>
 </body>
 </html>
