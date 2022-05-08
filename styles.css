@@ -9,7 +9,8 @@
 }
 html{
   box-sizing:border-box;
-  background-image:linear-gradient(to left,#91a88a,#556B2F);
+  background-image:url("sl_031420_28950_10.jpg");
+  background-size: cover;
 }
 h1,
 p{
@@ -24,7 +25,6 @@ p{
   left: 0;
   width: 100%;
   font-family: 'Handlee', cursive;
-  background-image:linear-gradient(to right,#91a88a,#CD5C5C);
 }
 .nav-list{
   list-style:none;
@@ -46,7 +46,7 @@ p{
   display:block;
   padding:20px;
   font-size:30px;
-  color:#2F4F4F;
+  color:#2afc98;
   max-width:150px;
   width:150px;
   text-align:center;
@@ -87,13 +87,14 @@ p{
   align-items: center;
   width:100%;
   height:100vh;
-  background-image:linear-gradient(to right,#91a88a,#556B2F);
 } 
 #welcome-section > h1{
   font-size:40px;
+  color: #ededaf;
 }
 #welcome-section > p {
   font-size:25px;
+  color: #ededaf;
 }
 #projects{
   height:100vh;
@@ -102,9 +103,12 @@ p{
 .projects-heading{
   width:50%;
   text-align:center;
+  font-size: 50px;
   font-family: 'Merienda', cursive;
-  margin:30px auto 30px auto;
-  border-bottom: 2px solid black;
+  color:#ededaf;
+  margin:auto;
+  padding-top: 5%;
+  border-bottom: 4px solid black;
 }
 
 @media(max-width:1100px){
@@ -140,16 +144,42 @@ p{
     font-size:20px;
   }
 }
+.grid{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.left,
+.right{
+  margin-top: 30%;
+  color: #2afc98;
+}
+.left:hover,
+.right:hover{
+  cursor: pointer;
+}
 .project-tile {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px,280px));
-  grid-gap:30px;
-  width:100%;
+  display: flex;
+  margin: auto;
+  margin-top: 15%;
+  width:80%;
+  height:50%;
   padding: 50px;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+.project-tile::-webkit-scrollbar {
+  display: none; 
+}
+.project-tile > a {
+  margin-right: 50px;
 }
 img{
-  width:200px;
-  height:20vh;
+  width:300px;
+  height:25vh;
   border:2px solid #8B4513;
   border-radius:10px;
   transition-property: border-radius;
@@ -166,7 +196,7 @@ img:hover {
 }
 .project-title{
   background-color:#BC8F8F;
-  width:200px;
+  width:300px;
   border:2px solid #8B4513;
   border-radius:10px;
 }
@@ -187,14 +217,13 @@ img:hover {
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  background-image:linear-gradient(to right,#91a88a,#556B2F);
   width:100%;
   height:100vh;
 }
 .outro-text{
   font-size:27px;
   text-align:center;
-  color:#F5DEB3;
+  color:#ededaf;
   font-family: 'Merienda', cursive;
   > p {
     font-size:20px;
@@ -207,12 +236,12 @@ img:hover {
   display:flex;
 }
 .contact-links > a{
-  max-width:130px;
+  min-width:160px;
   display:flex;
-  color:black;
+  color:#ededaf;
   justify-content:center;
   text-decoration:none;
-  font-size:20px;
+  font-size:30px;
   padding:8px;
   align-items:center;
 }
