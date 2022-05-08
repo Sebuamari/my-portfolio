@@ -143,8 +143,6 @@
     </footer>
   </section>
   <script>
-    const sliderLeft=document.querySelector('.left');
-    const sliderRight=document.querySelector('.right');
     const project=document.querySelector('.project-tile');
     let countClick=0;
 
@@ -153,7 +151,7 @@
         if(countClick>0){
           countClick--;
         }
-        project.scrollLeft=-(200*countClick);
+        project.scrollLeft=200*countClick;
     };
 
     const moveright = (e) => {
